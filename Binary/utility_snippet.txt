@@ -1,0 +1,14 @@
+# Some helpful utility snippets:
+
+# K-th bit manipulation
+1) Test kth bit is set: num & (1 << k) != 0.
+
+2) Set kth bit: num |= (1 << k).
+
+3) Un-Set kth bit: num &= ~(1 << k).
+
+4) Toggle the kth bit: num ^= (1 << k).
+
+# To check if a number is a power of 2, (num & num - 1) == 0.
+
+# Swapping two variables without extra variable: num1 ^= num2; num2 ^= num1; num1 ^= num2
